@@ -7,6 +7,7 @@ let c = 2
 console.log(a + c)
 console.log(a * b / c)
 console.log(a % b)
+console.log((a + c) - b)
 
 //task 2
 console.error("task 2")
@@ -21,7 +22,7 @@ let pon = 4
 let on = 5
 let str = "The result is: "
 
-console.log(str + pon + on)
+console.log(str + (pon + on))
 
 //task 4
 console.error("task 4")
@@ -40,10 +41,10 @@ console.log(ladno === gavno) //проверяет значение считая 
 //task 6
 console.error("task 6")
 let x_x = 21
-let pravda = (x_x / 2 || x_x / 3 && x_x % 6)
+let ponosics = (x_x % 2 == 0)
 
-console.log(!!pravda)
+console.log(!ponosics)
 let y = 11
-let lozh = (y > 10 || y < 5)
+let ponos = (y > 10 || y < 5)
 
-console.log(!lozh)
+console.log(!ponos)
