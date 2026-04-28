@@ -41,9 +41,9 @@ console.log(ladno === gavno) //проверяет значение считая 
 //task 6
 console.error("task 6")
 let x_x = 21
-let ponosics = (x_x % 2 == 0)
+let ponosics = (x_x / 2 || x_x / 3 & x_x / 6)
 
-console.log(!ponosics)
+console.log(!!ponosics)
 let y = 11
 let ponos = (y > 10 || y < 5)
 
